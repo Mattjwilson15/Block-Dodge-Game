@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgb(249, 188, 75),
+    rgb(255, 255, 90),
+    rgb(131, 236, 131),
+    rgb(112, 112, 236),
+    rgb(247, 120, 120),
+    rgb(214, 156, 255),
+    rgb(255, 188, 255)
+  );
+}
+
+.canvas-container {
+  position: relative;
+  width: 700px;
+  height: 500px;
+}
+
+#canvas1 {
+  background: black;
+}
+
+.title {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-around;
+  top: 15%;
+  white-space: pre;
+  position: absolute;
+  font-size: 40px;
+  font-style: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.stats-container {
+  width: 700px;
+  display: flex;
+  position: absolute;
+  top: 2%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.money {
+  font-size: 20px;
+  font-style: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.score {
+  font-size: 20px;
+  font-style: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.highScore {
+  font-size: 20px;
+  font-style: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+/* classes for buttons */
+
+.hidden {
+  display: none;
+}
+
+.button-container {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  font-family: "Courier New";
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 10px;
+  margin: 5px 5px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 3px 5px white;
+  border-radius: 3px;
+}
+
+.shop-icons {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+}
+
+.shop-icons button {
+  margin: 20px;
+}
+
+.shop-icons img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
